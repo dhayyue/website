@@ -34,35 +34,50 @@ const Navbar = ({}) => {
               <NavigationMenuTrigger>Profil</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                  <ListItem href="/profil/a" title="A">
-                    A
-                  </ListItem>
-                  <ListItem href="/profil/b" title="B">
-                    B
-                  </ListItem>
-                  <ListItem href="/profil/c" title="C">
-                    C
-                  </ListItem>
+                  <ListItem
+                    href="/profil/profil-pejabat"
+                    title="Profil Pejabat"
+                  ></ListItem>
+                  <ListItem
+                    href="/profil/struktur"
+                    title="Strktur Organisasi"
+                  ></ListItem>
+                  <ListItem href="/profil/tugas" title="Tugas Pokok"></ListItem>
+                  <ListItem
+                    href="/profil/doktrin"
+                    title="Doktrin & Tugas Wewenang"
+                  ></ListItem>
+                  <ListItem
+                    href="/profil/perintah"
+                    title="Perintah Harian"
+                  ></ListItem>
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
+
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Bidang</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                  <ListItem href="/bidang/a" title="A">
-                    A
-                  </ListItem>
-                  <ListItem href="/bidang/b" title="B">
-                    B
-                  </ListItem>
-                  <ListItem href="/bidang/c" title="C">
-                    C
-                  </ListItem>
-                </ul>
-              </NavigationMenuContent>
+              <Link href="/sejarah" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Sejarah
+                </NavigationMenuLink>
+              </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
+              <Link href="/logo" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Logo
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="/visi-misi" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Visi & Misi
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+
+            {/* <NavigationMenuItem>
               <Link href="/berita" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Berita
@@ -82,7 +97,7 @@ const Navbar = ({}) => {
                   Galeri
                 </NavigationMenuLink>
               </Link>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
           </NavigationMenuList>
         </NavigationMenu>
         <div></div>
