@@ -4,13 +4,13 @@ import Image from "next/image";
 const Page = ({}) => {
   return (
     <div className="mt-24 flex items-center justify-center mb-24">
-          <div className="container">
-            <div className="flex items-center justify-center flex-col">
-              <div className="w-full">
-                <SectionTitle title={"Perintah Harian Jaksa Agung RI"} />
-              </div>
-            </div>
-            <div className="bg-[#A1E3F937] rounded-lg p-10 mt-5">
+      <div className="container">
+        <div className="flex items-center justify-center flex-col">
+          <div className="w-full">
+            <SectionTitle title={"Perintah Harian Jaksa Agung RI"} />
+          </div>
+        </div>
+        <div className="bg-[#A1E3F937] rounded-lg p-10 mt-5">
           <h1 className="text-center font-bold text-lg mb-2">JAKSA AGUNG</h1>
           <h2 className="text-center font-bold text-lg mb-2">
             REPUBLIK INDONESIA

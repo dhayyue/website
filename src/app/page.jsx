@@ -54,7 +54,12 @@ const Page = ({}) => {
                     className="col-span-1 flex items-center justify-center flex-col hover:bg-[#3d82cc] p-5 transition-colors"
                   >
                     <div className="bg-[#D9D9D9] rounded-full p-5 aspect-square w-24 h-24 flex items-center justify-center">
-                      <Image alt={layanan.layanan} src={layanan.image} width={70} height={70} />
+                      <Image
+                        alt={layanan.layanan}
+                        src={layanan.image}
+                        width={70}
+                        height={70}
+                      />
                     </div>
                     <h1 className="font-medium text-white">
                       {layanan.layanan}

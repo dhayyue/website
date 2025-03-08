@@ -14,26 +14,31 @@ const Page = ({}) => {
         <div className="bg-[#A1E3F937] rounded-lg p-10 mt-5">
           <p className="font-semibold text-center">DOKTRIN KEJAKSAAN</p>
           <p className="font-semibold text-center mb-6">TRI KRAMA ADHYAKSA</p>
-          
+
           <div className="space-y-6">
             <div>
               <p className="font-semibold">SATYA</p>
               <p className="text-justify italic">
-                “Kesetiaan yang bersumber pada rasa jujur, baik terhadap Tuhan Yang Maha Esa, terhadap diri pribadi dan keluarga maupun kepada sesama manusia”
+                “Kesetiaan yang bersumber pada rasa jujur, baik terhadap Tuhan
+                Yang Maha Esa, terhadap diri pribadi dan keluarga maupun kepada
+                sesama manusia”
               </p>
             </div>
 
             <div>
               <p className="font-semibold">ADHI</p>
               <p className="text-justify italic">
-                “Kesempurnaan dalam bertugas dan berunsur utama kepemilikan rasa tanggung jawab, bertanggung jawab baik terhadap Tuhan Yang Maha Esa, terhadap keluarga dan terhadap sesama manusia.”
+                “Kesempurnaan dalam bertugas dan berunsur utama kepemilikan rasa
+                tanggung jawab, bertanggung jawab baik terhadap Tuhan Yang Maha
+                Esa, terhadap keluarga dan terhadap sesama manusia.”
               </p>
             </div>
 
             <div>
               <p className="font-semibold">WICAKSANA</p>
               <p className="text-justify italic">
-                “Bijaksana dalam tutur kata dan tingkah laku, khususnya dalam penerapan kekuasaan dan kewenangannya”
+                “Bijaksana dalam tutur kata dan tingkah laku, khususnya dalam
+                penerapan kekuasaan dan kewenangannya”
               </p>
             </div>
           </div>
@@ -43,4 +48,4 @@ const Page = ({}) => {
   );
 };
 
-export default Page
+export default Page;
