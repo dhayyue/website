@@ -6,7 +6,7 @@ export const ProfilConstants = [
     },
     {
         image: "/images/profil/1.png",
-        name: "Arif Yuli Haryanto, SH",
+        name: "Arif Yuli Haryanto, S.H.",
         jabatan: "Jaksa Muda",
         sub: "Kepala Sub Bagian Pembinaan"
     },
@@ -30,13 +30,13 @@ export const ProfilConstants = [
     },
     {
         image: "/images/profil/1.png",
-        name: "Iwan Darmawan, SH",
+        name: "Iwan Darmawan, S.H.",
         jabatan: "Jaksa Muda",
         sub: "Kepala Seksi Penggelolaan Barang Bukti dan Barang Rampasan"
     },
     {
         image: "/images/profil/1.png",
-        name: "Beni Prihatmo,S.H.,M.H.",
+        name: "Beni Prihatmo, S.H.,M.H.",
         jabatan: "Jaksa Muda",
         sub: "Kepala Seksi Tindak Pidana Umum"
     },
