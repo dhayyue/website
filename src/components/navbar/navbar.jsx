@@ -17,9 +17,9 @@ import Image from "next/image";
 const Navbar = ({}) => {
   return (
     <div className="w-full flex items-center justify-center fixed top-0 bg-gradient-to-b from-black to-transparent z-50">
-      <div className="container px-5 w-full flex items-center justify-between">
+      <div className="container w-full flex items-center justify-between">
         <div className="p-2">
-          <Image src={"/images/logo/logo-kejari.png"} width={146} height={54} />
+          <Image alt="Logo" src={"/images/logo/logo-kejari.png"} width={146} height={54} />
         </div>
         <NavigationMenu>
           <NavigationMenuList>

@@ -22,7 +22,7 @@ const SwiperKegiatan = ({}) => {
         <SwiperSlide className="" key={index}>
           <div className="grid grid-cols-2 mt-10 ml-10 mr-10 bg-[#3674B560]">
             <div className="col-span-1">
-              <Image src={info.image} width={658} height={483} alt={info.title}/>
+              <Image alt={info.title} src={info.image} width={658} height={483} alt={info.title}/>
             </div>
             <div className="col-span-1 flex justify-center flex-col h-full px-14">
               <h1 className="underline font-medium mb-10">{info.title}</h1>
